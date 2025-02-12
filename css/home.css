@@ -346,19 +346,65 @@ font-size: 150px;
     }
 }
 
+/* End of Contact and Hours Section */
 
+/* Start of Food Menu */
 
+.food_menu_outer_container {
+    width: 100vw;
+    height: 125vh;
+    padding: 120px 0px;
+    position: relative;
+    top: 110px;
+    background-color: #1b1b1b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
 
+.small_title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
 
+.large_title {
+    font-size: 55px;
+    margin-bottom: 50px;
+}
 
+.menu_items_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.menu_item {
+    height: 580px;
+    width: 412px;
+    padding: 50px;
+    background-color: #2c2c2c;
+    margin: 0 20px;
+    border-radius: 20px;
+}
 
+.menu_item img {
+    width: 166px;
+    height: 166px;
+    padding: 15px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    background-color: #1b1b1b;
+    border: 2px solid #3f3f3f;
+}
 
+.menu_item h3 {
+    font-size: 30px;
+}
 
-.site_container {
-    width: 85%;
-    max-width: 1320px; 
-    height: 100%;
-    background-color: #ECECEC;
-    margin: 0 auto;
+.menu_list {
+    display: flex;
+    flex-direction: column;
 }
