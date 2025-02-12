@@ -158,6 +158,7 @@ font-size: 150px;
 
 .contact_and_hours_div {
     width: 90%;
+    /* max-width of 546 px for each section */
     max-width: 1638px;
     height: 90%;
     max-height: 640px;
@@ -298,7 +299,7 @@ font-size: 150px;
 
 .site_container {
     width: 85%;
-    max-width: 1300px; 
+    max-width: 1320px; 
     height: 100%;
     background-color: #ECECEC;
     margin: 0 auto;
