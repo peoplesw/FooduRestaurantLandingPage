@@ -149,7 +149,7 @@ font-size: 150px;
 /* Start of Contact And Hours Section */
 
 .contact_and_hours_container {
-    height: 60vh;
+    height: 90vh;
     width: 100vw;
     background: white;
     position: relative;
@@ -165,7 +165,7 @@ font-size: 150px;
     z-index: 10;
     position: absolute;
     right: 0px;
-    top: -80px;
+    top: -50px;
     display: flex;
 }
 
