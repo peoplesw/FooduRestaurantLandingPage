@@ -149,7 +149,7 @@ font-size: 150px;
 /* Start of Contact And Hours Section */
 
 .contact_and_hours_container {
-    height: 90vh;
+    height:75vh;
     width: 100vw;
     background: white;
     position: relative;
@@ -162,7 +162,7 @@ font-size: 150px;
     max-width: 1638px;
     height: 90%;
     max-height: 640px;
-    background-color: #EB0029;
+    /* background-color: #EB0029; */
     z-index: 10;
     position: absolute;
     right: 0px;
@@ -170,6 +170,20 @@ font-size: 150px;
     display: flex;
 }
 
+@media (max-width: 1400px) {
+    .contact_and_hours_container {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .contact_and_hours_div {
+        right: auto;
+    }
+
+    .contact_section p {
+        font-size: 14px;
+}
+}
 .contact_section {
     width: 33.33%;
     background-color: #faf1df;
@@ -194,7 +208,7 @@ font-size: 150px;
 }
 
 .contact_section p {
-    font-size: 17px;
+    font-size: 15px;
     text-align: center;
     color: black;
     line-height: 1.75;
@@ -207,8 +221,8 @@ font-size: 150px;
 }
 
 .icon_and_phone_section .phone_icon {
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
     background: #EB0029;
     display: flex;
     justify-content: center;
@@ -263,6 +277,7 @@ font-size: 150px;
     flex-direction: column;
     align-items: center;
     justify-content: center; */
+    background-color: #EB0029;
 }
 
 .hours_section_div {
@@ -287,6 +302,49 @@ font-size: 150px;
     border-bottom: none;
 }
 
+@media (max-width: 1200px) {
+    .contact_and_hours_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 145vh;
+        width: 100vw;
+        background: white;
+        position: relative;
+        /* top: 110px; */
+        }
+    
+    .contact_and_hours_div {
+        display: flex;
+        flex-wrap: wrap;
+        height: 80%;
+        max-height: 1190px;
+        width: 70%;
+        top: auto;
+    }
+
+    .contact_section {
+        width: 100%;
+    }
+
+    .phone_icon {
+        height: 100px;
+        width: 100px;
+    }
+
+    .contact_and_hours_image_section {
+        width: 50%;
+        max-width: 485px;
+        max-height: 485px;
+    }
+
+    .hours_section {
+        width: 50%;
+        max-width: 485px;
+        max-height: 485px;
+        background-color: #EB0029;
+    }
+}
 
 
 
