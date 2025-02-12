@@ -5,11 +5,14 @@ body {
 nav {
     height: 110px;
     width: 100%;
-    background-color: lightblue;
+    background-color: white;
     font-weight: 500;
     font-size: 18px;
     position: fixed;
-    z-index: 5;
+    z-index: 100;
+    box-shadow: 1px 6px 11px -4px rgba(0,0,0,0.58);
+    -webkit-box-shadow: 1px 6px 11px -4px rgba(0,0,0,0.58);
+    -moz-box-shadow: 1px 6px 11px -4px rgba(0,0,0,0.58);
 }
 
 nav a {
@@ -22,26 +25,22 @@ nav a {
     width: 85%;
     max-width: 1300px;
     height: 100%;
-    background-color: beige;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
 
 .nav_left {
-    background-color: green;
     display: flex;
     align-items: center;
 }
 
 .nav_middle {
-    background-color: greenyellow;
     display: flex;
     align-items: center;
 }
 
 .nav_right {
-    background-color: lightcoral;
     display: flex;
     align-items: center;
 }
@@ -150,38 +149,142 @@ font-size: 150px;
 /* Start of Contact And Hours Section */
 
 .contact_and_hours_container {
-    height: 90vh;
+    height: 60vh;
     width: 100vw;
-    background: lightgray;
+    background: white;
     position: relative;
     top: 110px;
 }
 
 .contact_and_hours_div {
-    width: 85%;
-    background-color: red;
-    z-index: 78;
-    position: relative;
+    width: 90%;
+    max-width: 1638px;
+    height: 100%;
+    max-height: 640px;
+    background-color: #EB0029;
+    z-index: 10;
+    position: absolute;
+    right: 0px;
+    top: -80px;
+    display: flex;
 }
 
 .contact_section {
     width: 33.33%;
-    height: 80%;
-    background-color: beige;
+    background-color: #faf1df;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px 50px;
+}
 
+.contact_top_border img {
+    width: 132px;
+    height: 22px;
+    margin: 0px 106px 30px 106px;
+}
+
+.contact_section h1 {
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 25px;
+    text-align: center;
+    color: black;
+}
+
+.contact_section p {
+    font-size: 14px;
+    text-align: center;
+    color: black;
+    line-height: 1.75;
+    margin-bottom: 25px;
+}
+
+.contact_section .icon_and_phone_section {
+    display: flex;
+    margin-top: 15px;
+}
+
+.icon_and_phone_section .phone_icon {
+    width: 60px;
+    height: 60px;
+    background: #EB0029;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    color: white;
+}
+
+.icon_and_phone_section .phone_number {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 10px 30px;
+}
+
+.phone_number_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    background-color: white;
+}
+
+.phone_number .phone_number_text {
+    color: #667667;
+    font-size: 15px;
+    margin-bottom: 3px;
+    text-align: left;
+}
+
+.phone_number .number {
+    font-size: 22px;
+    font-weight: 600;
 }
 
 .contact_and_hours_image_section {
-    width: 33.33%
+    width: 33.33%;
+    height: 100%;
+    background-image: url("./images/chefPic.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .hours_section {
-    width: 33.33%
+    width: 33.33%;
+    color: white;
+    padding: 60px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
 }
 
+.hours_section_div {
+    display: flex;
+    flex-direction: column;
+}
 
+.hours_section_div h1 {
+    font-size: 36px;
+    margin-bottom: 25px;
+}
 
+.hours_section_div .schedule {
+    font-size: 18px;
+    padding: 15px 0px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(250, 250, 250, 0.25);
+}
 
+.hours_section_div .schedule:last-child {
+    border-bottom: none;
+}
 
 
 
