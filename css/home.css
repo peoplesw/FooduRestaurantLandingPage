@@ -1,5 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
 }
 
 nav {
@@ -352,7 +353,7 @@ font-size: 150px;
 
 .food_menu_outer_container {
     width: 100vw;
-    height: 125vh;
+    /* height: 125vh; */
     padding: 120px 0px;
     position: relative;
     top: 110px;
@@ -377,8 +378,9 @@ font-size: 150px;
 .menu_items_container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .menu_item {
@@ -386,7 +388,7 @@ font-size: 150px;
     width: 412px;
     padding: 50px;
     background-color: #2c2c2c;
-    margin: 0 20px;
+    margin: 20px;
     border-radius: 20px;
 }
 
@@ -402,9 +404,48 @@ font-size: 150px;
 
 .menu_item h3 {
     font-size: 30px;
+    margin-bottom: 30px;
 }
 
 .menu_list {
     display: flex;
     flex-direction: column;
+    font-size: 18px;
 }
+
+.food_item_and_price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255,255,255, 0.15);
+    padding: 10px 0px;
+}
+
+.food_item_and_price:last-child {
+    border-bottom: none;
+}
+
+.food_item {
+
+}
+
+.food_item_price {
+
+}
+
+.menu_list_button {
+    margin-top: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background-color: #EB0029;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+/* End of Food Menu */
+
+/* Start of Fax Section */
+
