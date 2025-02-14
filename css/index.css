@@ -507,6 +507,11 @@ font-size: 150px;
         padding-top: 20px;
     }
 
+    .icon_and_phone_section .phone_icon {
+        width: 60px;
+        height: 60px;
+    }
+
     .contact_and_hours_image_section {
         display: none;
     }
