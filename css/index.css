@@ -477,7 +477,7 @@ font-size: 150px;
 @media (max-width: 1154px) {
     
     .contact_and_hours_div {
-        width: 70%;
+        width: 60%;
     }
 
     .contact_section {
@@ -495,7 +495,19 @@ font-size: 150px;
     }
 }
 
-@media (max-width: 730px) {
+@media (max-width: 853px) {
+    .icon_and_phone_section .phone_icon {
+        width: 60px;
+        height: 60px;
+    }
+
+    .contact_section p {
+        margin-bottom: 10px;
+    }
+
+}
+
+@media (max-width: 750px) {
     .contact_section p {
         margin-bottom: 10px;
     }
@@ -506,7 +518,7 @@ font-size: 150px;
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 750px) {
     
     .contact_and_hours_div {
         min-width: 95%;
@@ -523,8 +535,8 @@ font-size: 150px;
     }
 
     .icon_and_phone_section .phone_icon {
-        width: 60px;
-        height: 60px;
+        width: 65px;
+        height: 65px;
     }
 
     .contact_and_hours_image_section {
@@ -863,6 +875,7 @@ font-size: 150px;
     padding: 30px;
     border-radius: 10px;
 }
+
 
 .food_pic_div {
     margin: 0px 20.75px 30px;
