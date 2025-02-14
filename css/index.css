@@ -545,7 +545,10 @@ font-size: 150px;
 .large_title {
     font-size: 55px;
     margin-bottom: 50px;
+    text-align: center;
 }
+
+/* @media (max-width: `px) */
 
 .menu_items_container {
     display: flex;
