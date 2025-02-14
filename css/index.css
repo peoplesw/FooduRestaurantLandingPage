@@ -572,6 +572,12 @@ font-size: 150px;
     border-radius: 20px;
 }
 
+@media (max-width: 450px) {
+    .menu_item {
+        width: 329px;
+    }
+}
+
 .menu_item img {
     width: 166px;
     height: 166px;
