@@ -204,7 +204,6 @@ nav a {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    position: relative;
 }
 
 .black_background {
@@ -788,4 +787,108 @@ font-size: 150px;
         font-weight: 600;
         color: #EB0029;
     }
+}
+
+/* End of Jumbo Fax section */
+
+/* Start of Specials Menu */
+
+.specials_menu_container {
+    position: relative;
+    top: 110px;
+    background: url("./images/beigeBackground.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.specials_menu_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 120px;
+    width: 90%;
+    max-width: 1300px;
+    text-align: center;
+}
+
+.sub_heading {
+    font-size: 20px;
+    font-weight: 600;
+    color: #EB0029;
+}
+
+.main_heading {
+    font-size: 55px;
+    font-weight: 600;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+
+.menu_cards_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu_card {
+    width: 301px;
+    height: 500px;
+    background-color: white;
+    margin-bottom: 30px;
+    margin-right: 10px;
+    margin-left: 12px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.food_pic_div {
+    margin: 0px 20.75px 30px;
+}
+
+.food_img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #EB0029;
+    padding: 10px;
+    object-fit: cover;
+}
+
+#pizza_img {
+    background-color: #EB0029;
+}
+
+#burger_img {
+    background-color: #D3D3D3;
+}
+
+#lemonade_img {
+    background-color: #EB0029;   
+}
+
+#chicken_popeyes_img {
+    background-color: #D3D3D3;   
+}
+
+.item_price {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 1px solid white;
+    background-color: #1D2024;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: 600;
+    position: relative;
+    top: -100px;
+    right: -150px;
 }
