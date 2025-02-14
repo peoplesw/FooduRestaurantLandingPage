@@ -892,3 +892,8 @@ font-size: 150px;
     top: -100px;
     right: -150px;
 }
+
+.card_header {
+    margin-bottom: 15px;
+    color: #04000B;
+}
