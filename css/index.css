@@ -477,6 +477,10 @@ font-size: 150px;
 
 @media (max-width: 1154px) {
     
+    .contact_and_hours_div {
+        width: 70%;
+    }
+
     .contact_section {
         height: 50%;
     }
@@ -488,6 +492,29 @@ font-size: 150px;
     .hours_section {
         min-width: 100%;
         height: 50%;
+    }
+}
+
+@media (max-width: 600px) {
+    
+    .contact_and_hours_div {
+        min-width: 95%;
+    }
+
+    .contact_section {
+        height: 50%;
+        padding: 20px;
+        padding-top: 20px;
+    }
+
+    .contact_and_hours_image_section {
+        display: none;
+    }
+
+    .hours_section {
+        min-width: 100%;
+        height: 50%;
+        padding: 30px;
     }
 }
 
