@@ -475,6 +475,22 @@ font-size: 150px;
     }
 }
 
+@media (max-width: 1154px) {
+    
+    .contact_section {
+        height: 50%;
+    }
+
+    .contact_and_hours_image_section {
+        display: none;
+    }
+
+    .hours_section {
+        min-width: 100%;
+        height: 50%;
+    }
+}
+
 /* End of Contact and Hours Section */
 
 /* Start of Food Menu */
