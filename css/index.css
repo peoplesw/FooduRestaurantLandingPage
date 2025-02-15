@@ -1,9 +1,13 @@
 html {
     overflow-x: hidden;
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    /* font-weight: 400; */
+    font-style: normal;
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 nav {
@@ -839,6 +843,7 @@ font-size: 150px;
     flex-direction: column;
     justify-content: center;
     padding-top: 120px;
+    padding-bottom: 90px;
     width: 90%;
     max-width: 1300px;
     text-align: center;
@@ -878,7 +883,7 @@ font-size: 150px;
 
 
 .food_pic_div {
-    margin: 0px 20.75px 30px;
+    margin: 0px 20.75px 0px;
 }
 
 .food_img {
@@ -910,7 +915,7 @@ font-size: 150px;
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    border: 1px solid white;
+    border: 2px solid white;
     background-color: #1D2024;
     color: white;
     display: flex;
@@ -919,11 +924,196 @@ font-size: 150px;
     font-size: 22px;
     font-weight: 600;
     position: relative;
-    top: -100px;
+    top: -80px;
     right: -150px;
 }
 
+.food_details_box {
+    position: relative;
+    top: -50px;
+}
+
 .card_header {
+    font-size: 22px;
+    font-weight: 900;
     margin-bottom: 15px;
+    margin-top: -1000;
     color: #04000B;
+}
+
+.food_contents {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #667667;
+    padding: 10px 0px;
+    margin: 25px 0px;
+    border-top: 1px solid #667667;
+    border-bottom: 1px solid #667667;
+}
+
+.food_description {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #667667;
+    line-height: 2;   
+}
+
+/* End of Specials Menu Section*/
+
+/* Start of Booking/Reservations Section */
+
+.reservations_main_conatiner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+}
+
+.left_and_right_container {
+    display: flex;
+    position: relative;
+    top: 110px;
+}
+
+.img_and_buttons_container {
+    width: 50%;
+    /* height: 100vh; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-image: url("./images/reservationBg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 120px 0px;
+}
+
+.circles_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    color: black;
+    font-size: 17px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+    position: relative;
+    right: -60px;
+    box-shadow: 0 15px 60px -10px #6d758f54;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle:hover {
+    background-color: #EB0029;
+    color: white;
+}
+
+.circle_img_div {
+    margin-bottom: 10px;
+}
+
+.circle_img {
+    width: 50px;
+    height: 50px;
+}
+
+.form_container {
+    max-width: 568px;
+    width: 50%;
+    padding: 120px 0px 120px 110px;
+    /* height: 100vh; */
+    top: 110px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.form_container_sub_heading {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: #EB0029;
+}
+
+.form_container_heading {
+    font-size: 55px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+label {
+    margin-bottom: 7.5px;
+}
+
+.phone_input {
+    height: 40px;
+    padding-left: 15px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #e7e7e7;
+}
+
+.person_input {
+    height: 40px;
+    padding-left: 15px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #e7e7e7;
+}
+
+.date_input {
+    height: 40px;
+    padding-left: 15px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #e7e7e7;
+}
+
+.time_input {
+    height: 40px;
+    padding-left: 15px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #e7e7e7;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    width: 159px;
+    height: 57px;
+    padding: 14px 20px;
+    background-color: #EB0029;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: black;
 }
