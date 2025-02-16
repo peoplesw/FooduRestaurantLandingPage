@@ -1264,7 +1264,7 @@ body {
 }
 
 .swiper-slide {
-  text-align: center;
+    text-align: center;
   font-size: 18px;
   display: flex;
   justify-content: center;
@@ -1280,6 +1280,22 @@ body {
   object-fit: cover;
 }
 
+.swiper_container {
+    width: 65%;
+}
+
 .stars {
     color: gold;
+    margin-bottom: 15px;
+}
+
+.testimonial_header {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.testimonial_content {
+    font-size: 30px;
+    color: #CCCCCC;
+    font-weight: 300;
 }
