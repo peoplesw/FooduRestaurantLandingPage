@@ -1648,7 +1648,87 @@ body {
 }
 
 .footer_newsletter_section {
-
+    width: 262px;
+    height: 290px;
 }
+
+.newsletter_header {
+    font-size: 22px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.newsletter_paragraph {
+    font-size: 17px;
+    line-height: 1.8;
+    margin-bottom: 25px;
+    color: #CCCCCC;
+}
+
+.newsletter_email_input_div {
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+}
+
+.newsletter_email_input {
+    background: #1D2024;
+    color: white;
+    font-size: 17px;
+    border: none;
+}
+
+.newsletter_email_input::placeholder {
+    color: #CCCCCC;
+    font-size: 17px;
+    font-family: "Oswald", serif;
+    opacity: 1; /* Firefox */
+}
+
+.newsletter_email_input::-ms-input-placeholder { /* Edge 12 -18 */
+    color: #CCCCCC;
+    font-size: 17px;
+    font-family: "Oswald", serif;
+  }
+
+.newsletter_button {
+    display: inline;
+    width: 80px;
+    height: 20px;
+    margin-top: 15px;
+    color: white;
+    font-size: 17px;
+
+    padding: 14px 20px;
+    background-color: #1D2024;
+    border-radius: 10px;
+    border: 1px solid #CCCCCC;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Oswald", serif;
+}
+
+.chackbox_and_content {
+    margin-top: 10px;
+}
+
+.newsletter_checkbox {
+    margin-right: 5px;
+}
+
+.newsletter_checkbox_content {
+    display: inline;
+    font-size: 17px;
+    color: white;
+}
+
+.newsletter_button:hover {
+    background-color: white;
+    color: black;
+}
+
 
 /* End of Footer */
