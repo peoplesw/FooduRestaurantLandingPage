@@ -1344,3 +1344,158 @@ body {
         font-size: 20px;
     }
 }
+
+/* End of Testimonials Section */
+
+/* Start of Filler Cards */
+
+.filler_cards_container {
+    max-width: 1300px;
+    background-color: white;
+    position: relative;
+    top: 110px;
+    margin: 0 auto;
+}
+
+.filler_cards_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+    padding: 120px 0;
+}
+
+.filler_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #EBE9E6;
+    border-radius: 30px;
+    margin: 0px 5px;
+}
+
+.filler_card_small .filler_card_header {
+    color: #04000B;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.filler_card_big .filler_card_header {
+    color: #04000B;
+    font-size: 22px;
+    margin-top: 15px;
+}
+
+.filler_card_content {
+    color: #667667;
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+.filler_card_small {
+    width: 320px;
+    height: 383px;
+}
+
+.filler_card_big {
+    width: 320px;
+    height: 443px;
+}
+
+.hamburger_img {
+    width: 133px;
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+.delivery_img {
+    width: 110px;
+    height: 100px;
+    margin-top: 30px;
+}
+
+.cake_img {
+    width: 92px;
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+.noodles_img {
+    width: 107px;
+    height: 100px;
+    margin-top: 30px;
+}
+
+@media (max-width: 1399px) {
+    .filler_card_small {
+        width: 275px;
+        height: 414px;
+    }
+    
+    .filler_card_big {
+        width: 275px;
+        height: 474px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .filler_card_small {
+        width: 230px;
+        height: 414px;
+    }
+    
+    .filler_card_big {
+        width: 230px;
+        height: 474px;
+    }
+}
+
+@media (max-width: 991px) {
+    .filler_cards_div {
+        flex-wrap: wrap;
+    }
+
+    .filler_card_small {
+        width: 333px;
+        height: 383px;
+        margin: 15px;
+    }
+    
+    .filler_card_big {
+        width: 333px;
+        height: 383px;
+        margin: 15px;
+    }
+}
+
+@media (max-width: 767px) {
+    .filler_card_small {
+        width: 516px;
+        height: 353px;
+        margin: 15px 5px;
+    }
+    
+    .filler_card_big {
+        width: 516px;
+        height: 353px;
+        margin: 15px 5px;
+    }
+
+    .filler_card_small:first-child {
+        margin-top: 0;
+    }
+
+    .filler_card_big:last-child {
+        margin-bottom: 0;
+    }
+}
+
+/* End of Filler Cards */
+
+/* Start of Footer */
+
+
+
+/* End of Footer */
