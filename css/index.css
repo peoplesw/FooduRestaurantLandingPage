@@ -1125,9 +1125,31 @@ font-size: 150px;
         border: 1px solid #ccc !important;
         border-radius: 5px !important;
     }
-        
-    .form_without_headers {
+}
 
+@media (max-width: 765px) {
+    .circles_none_1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .circles_div {
+        margin-top: 0;
+        padding-top: 60px;
+    }
+
+    .form_without_headers {
+        padding: 50px;
+    }
+
+    .form_container_heading {
+        font-size: 36px !important;
+    }
+
+    .form_container {
+        margin: 60px;
     }
 
 }
