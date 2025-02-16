@@ -1298,4 +1298,28 @@ body {
     font-size: 30px;
     color: #CCCCCC;
     font-weight: 300;
+    line-height: 1.75;
+}
+
+.photo_1_div {
+    width: 216px;
+    height: 216px;
+    border: 5px solid white;
+    transform: rotate(7.5deg);
+}
+
+.photo_2_div {
+    width: 216px;
+    height: 216px;
+    border: 5px solid white;
+    transform: rotate(-7.5deg);
+    position: relative;
+    top: 50px;
+    right: 40px;
+}
+
+.photos_div {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
 }
