@@ -1324,3 +1324,23 @@ body {
     justify-content: center;
     margin-top: 60px;
 }
+
+@media (max-width: 750px) {
+    .swiper_container {
+        width: 95%;
+    }
+    
+    .photo_1_div {
+        width: 162px;
+        height: 162px;
+    }
+
+    .photo_2_div {
+        width: 162px;
+        height: 162px;
+    }
+    
+    .testimonial_content {
+        font-size: 20px;
+    }
+}
