@@ -277,6 +277,8 @@ font-size: 150px;
     }
 }
 
+/* End of Hero Section */
+
 /* Start of Contact And Hours Section */
 
 .contact_and_hours_container {
@@ -390,6 +392,7 @@ font-size: 150px;
 .phone_number .number {
     font-size: 22px;
     font-weight: 600;
+    text-decoration: none;
 }
 
 .contact_and_hours_image_section {
@@ -1586,7 +1589,62 @@ body {
 }
 
 .footer_contact_section {
-    
+    width: 262px;
+    height: 254px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.contact_header {
+    font-size: 22px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.contact_info_div {
+    display: flex;
+    color: #CCCCCC;
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+
+.contact_info_div:last-child {
+    margin-bottom: 0px;
+}
+
+.contact_icon_div {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid #cccccc62;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact_icon_div i {
+    font-size: 14px;
+    color: #CCCCCC;
+    fill: #CCCCCC;
+    stroke: #CCCCCC;
+}
+
+.contact_info {
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.8;
+}
+
+.contact_info_1 {
+    text-decoration: none;
+}
+
+.contact_info_2 {
+    text-decoration: none;
 }
 
 .footer_newsletter_section {
