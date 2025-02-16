@@ -1496,6 +1496,70 @@ body {
 
 /* Start of Footer */
 
+.footer_container {
+    max-width: 1300px;
+    padding: 30px 80px 0px;
+    position: relative;
+    top: 110px;
+    margin: 0 auto;
+    background-color: #1D2024;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
 
+.footer_about_section {
+    width: 261px;
+    height: 259px;
+}
+
+.foodu_img_div {
+    margin-bottom: 30px;
+}
+
+.foodu_img {
+    width: 166px;
+    height: 61px;
+}
+
+.about_section_paragraph {
+    font-size: 17px;
+    line-height: 1.8;
+    margin-bottom: 25px;
+    color: #CCCCCC;
+}
+
+.about_section_hours_div {
+    font-size: 17px;
+    color: white;
+}
+
+.about_mon_fri_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.about_sat_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.footer_explore_section {
+    
+}
+
+.footer_contact_section {
+
+}
+
+.footer_newsletter_section {
+
+}
 
 /* End of Footer */
