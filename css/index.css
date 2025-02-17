@@ -1788,4 +1788,10 @@ body {
     }
 }
 
+@media (max-width: 600px) {
+    .bottom_footer_div {
+        display: none;
+    }
+}
+
 /* End of Footer */
