@@ -1730,5 +1730,12 @@ body {
     color: black;
 }
 
+.bottom_footer_div {
+    margin-top: 80px;
+    width: 523px;
+    height: 31px;
+    padding: 30px 30px 0px;
+    background-color: white;
+}
 
 /* End of Footer */
