@@ -1769,6 +1769,8 @@ body {
 @media (max-width: 945px) {
     .footer_container {
         padding: 30px 50px 0px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
     }
     
     .top_footer_div {
@@ -1789,6 +1791,11 @@ body {
 }
 
 @media (max-width: 600px) {
+    .footer_container {
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+    }
+    
     .bottom_footer_div {
         display: none;
     }
