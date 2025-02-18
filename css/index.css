@@ -600,6 +600,12 @@ font-size: 150px;
     flex-wrap: wrap;
 }
 
+@media (max-width: 903px) {
+    .menu_items_container {
+        width: 86%;
+    }
+}
+
 .menu_item {
     height: 580px;
     width: 412px;
