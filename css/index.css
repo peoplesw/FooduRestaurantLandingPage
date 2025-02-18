@@ -625,6 +625,11 @@ font-size: 150px;
     }
 }
 
+.menu_img_div {
+    display: flex;
+    justify-content: center;
+}
+
 .menu_item img {
     width: 166px;
     height: 166px;
