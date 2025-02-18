@@ -619,7 +619,7 @@ font-size: 150px;
     .menu_item {
         width: 329px;
         /* min-width: 100%; made this alignment good  */
-        min-width: 100%;
+        /* min-width: 100%; */
     }
 
     .large_title {
