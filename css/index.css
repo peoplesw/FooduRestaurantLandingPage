@@ -602,7 +602,7 @@ font-size: 150px;
 
 @media (max-width: 903px) {
     .menu_items_container {
-        width: 86%;
+       min-width: 86%;
     }
 }
 
@@ -619,7 +619,7 @@ font-size: 150px;
     .menu_item {
         width: 329px;
         /* min-width: 100%; made this alignment good  */
-        /* min-width: 100%; */
+        min-width: 86%;
     }
 
     .large_title {
@@ -1830,6 +1830,7 @@ body {
     .footer_container {
         border-top-left-radius: 0px;
         border-top-right-radius: 0px;
+        padding: 30px 20px 0px !important;
     }
 
     .bottom_footer_div {
