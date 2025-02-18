@@ -1811,6 +1811,7 @@ body {
     
     .top_footer_div {
         flex-wrap: wrap;
+        width: 86%;
     }
 
     .footer_explore_section {
@@ -1826,11 +1827,11 @@ body {
     }
 }
 
-@media (max-width: 665px) {
+@media (max-width: 755px) {
     .footer_container {
         border-top-left-radius: 0px;
         border-top-right-radius: 0px;
-        padding: 30px 39px 0px !important;
+        padding: 30px 45px 0px !important;
     }
 
     .top_footer_div {
