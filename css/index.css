@@ -893,11 +893,18 @@ font-size: 150px;
 }
 
 /* the price movies bc it is position relative */
-/* @media (max-width: 717px) {
+@media (max-width: 717px) {
     .menu_card {
         width: 500px;
     }
-} */
+}
+
+.img_and_price_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 .food_pic_div {
     margin: 0px 20.75px 0px;
@@ -942,7 +949,7 @@ font-size: 150px;
     font-weight: 600;
     position: relative;
     top: -80px;
-    right: -150px;
+    right: -70px;
 }
 
 .food_details_box {
