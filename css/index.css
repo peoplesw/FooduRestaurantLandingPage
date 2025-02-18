@@ -294,7 +294,8 @@ font-size: 150px;
 .contact_and_hours_div {
     width: 90%;
     /* max-width of 546 px for each section */
-    max-width: 1638px;
+    /* max-width: 1638px; */
+    max-width: 1300px;
     height: 90%;
     max-height: 640px;
     /* background-color: #EB0029; */
@@ -530,7 +531,7 @@ font-size: 150px;
 @media (max-width: 750px) {
     
     .contact_and_hours_div {
-        min-width: 95%;
+        min-width: 86%;
     }
 
     .contact_section {
@@ -611,6 +612,10 @@ font-size: 150px;
 @media (max-width: 450px) {
     .menu_item {
         width: 329px;
+    }
+
+    .large_title {
+        font-size: 40px;
     }
 }
 
@@ -887,7 +892,6 @@ font-size: 150px;
     border-radius: 10px;
 }
 
-
 .food_pic_div {
     margin: 0px 20.75px 0px;
 }
@@ -1091,7 +1095,8 @@ font-size: 150px;
 
     .form_container {
         max-width: 696px;
-        width: 100%;
+        /* width: 100%; */
+        width: 86%;
         /* padding: 80px; */
         margin: 40px auto;
         padding: 0;
@@ -1301,6 +1306,8 @@ body {
 }
 
 .testimonial_content {
+    width: 86%;
+    margin: 0 auto;
     font-size: 30px;
     color: #CCCCCC;
     font-weight: 300;
@@ -1479,13 +1486,13 @@ body {
     .filler_card_small {
         width: 516px;
         height: 353px;
-        margin: 15px 5px;
+        margin: 15px 28px;
     }
     
     .filler_card_big {
         width: 516px;
         height: 353px;
-        margin: 15px 5px;
+        margin: 15px 28px;
     }
 
     .filler_card_small:first-child {
@@ -1797,7 +1804,7 @@ body {
         border-top-left-radius: 0px;
         border-top-right-radius: 0px;
     }
-    
+
     .bottom_footer_div {
         display: none;
     }
