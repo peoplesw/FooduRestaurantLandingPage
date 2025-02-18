@@ -892,6 +892,12 @@ font-size: 150px;
     border-radius: 10px;
 }
 
+@media (max-width: 717px) {
+    .menu_card {
+        width: 500px;
+    }
+}
+
 .food_pic_div {
     margin: 0px 20.75px 0px;
 }
