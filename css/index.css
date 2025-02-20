@@ -178,7 +178,7 @@ nav a {
         text-align: center;
         transition: 0.3s ease-in-out;
         z-index: 1000;
-        display: block;
+        display: block !important;
         
     }
 
