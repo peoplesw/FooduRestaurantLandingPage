@@ -566,7 +566,7 @@ font-size: 150px;
 /* Start of Food Menu */
 
 .food_menu_outer_container {
-    width: 100vw;
+    /* width: 100vw; */
     /* height: 125vh; */
     padding: 120px 0px;
     position: relative;
@@ -1057,7 +1057,7 @@ font-size: 150px;
 }
 
 .circle:hover {
-    background-color: #EB0029;
+    background-color: black;
     color: white;
 }
 
