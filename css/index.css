@@ -115,11 +115,11 @@ nav a {
 }
 
 .nav_menu_items {
+    display: none;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    display: none;
 }
 
 .nav_menu_item {
